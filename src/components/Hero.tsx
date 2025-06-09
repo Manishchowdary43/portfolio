@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary-600 to-secondary-600 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 mb-6 sm:mb-8 overflow-hidden rounded-full ring-4 ring-white dark:ring-gray-800">
               <img 
-                src="/src/assets/WhatsApp Image 2024-12-10 at 13.20.30_93e301d0.jpg" 
+                src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&dpr=1" 
                 alt="Ganaparthi Manish" 
                 className="object-cover w-full h-full transform transition-transform duration-500 hover:scale-110"
               />

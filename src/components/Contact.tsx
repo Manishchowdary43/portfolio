@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="section">
-      <div className="container">
+      <div className="container px-4 sm:px-6 lg:px-8">
         <SectionTitle>Get In Touch</SectionTitle>
         
         <motion.div 
@@ -74,47 +74,47 @@ const Contact: React.FC = () => {
           variants={variants}
         >
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Let's Talk!</h3>
-            <p className="text-gray-600 dark:text-gray-300">
+            <h3 className="text-xl sm:text-2xl font-semibold">Let's Talk!</h3>
+            <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
               Have a project in mind or just want to chat? Feel free to reach out through any of 
               the methods below or use the contact form.
             </p>
             
             <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="flex items-center justify-center w-10 h-10 mr-4 text-white rounded-full bg-primary-600">
-                  <Mail className="w-5 h-5" />
+              <div className="flex items-start sm:items-center">
+                <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 mr-3 sm:mr-4 text-white rounded-full bg-primary-600 flex-shrink-0">
+                  <Mail className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
-                <div>
-                  <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Email</h4>
+                <div className="min-w-0 flex-1">
+                  <h4 className="text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400">Email</h4>
                   <a 
                     href="mailto:ganaparthimanishchowdary@gmail.com" 
-                    className="text-lg transition-colors hover:text-primary-600 dark:hover:text-primary-400"
+                    className="text-sm sm:text-lg transition-colors hover:text-primary-600 dark:hover:text-primary-400 break-all"
                   >
                     ganaparthimanishchowdary@gmail.com
                   </a>
                 </div>
               </div>
               
-              <div className="flex items-center">
-                <div className="flex items-center justify-center w-10 h-10 mr-4 text-white rounded-full bg-primary-600">
-                  <MapPin className="w-5 h-5" />
+              <div className="flex items-start sm:items-center">
+                <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 mr-3 sm:mr-4 text-white rounded-full bg-primary-600 flex-shrink-0">
+                  <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Location</h4>
-                  <p className="text-lg">Sakhavaram, Prakasam District, AP, India</p>
+                  <h4 className="text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400">Location</h4>
+                  <p className="text-sm sm:text-lg">Sakhavaram, Prakasam District, AP, India</p>
                 </div>
               </div>
               
-              <div className="flex items-center">
-                <div className="flex items-center justify-center w-10 h-10 mr-4 text-white rounded-full bg-primary-600">
-                  <Phone className="w-5 h-5" />
+              <div className="flex items-start sm:items-center">
+                <div className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 mr-3 sm:mr-4 text-white rounded-full bg-primary-600 flex-shrink-0">
+                  <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-medium text-gray-500 dark:text-gray-400">Phone</h4>
+                  <h4 className="text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400">Phone</h4>
                   <a 
                     href="tel:+918897868951" 
-                    className="text-lg transition-colors hover:text-primary-600 dark:hover:text-primary-400"
+                    className="text-sm sm:text-lg transition-colors hover:text-primary-600 dark:hover:text-primary-400"
                   >
                     +91 8897868951
                   </a>
@@ -123,41 +123,41 @@ const Contact: React.FC = () => {
             </div>
             
             <div className="pt-6">
-              <h4 className="mb-4 font-medium">Connect with me:</h4>
-              <div className="flex space-x-4">
+              <h4 className="mb-4 font-medium text-sm sm:text-base">Connect with me:</h4>
+              <div className="flex space-x-3 sm:space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/ganaparthimanish" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-10 h-10 text-gray-600 transition-all transform bg-gray-100 rounded-full hover:bg-primary-600 hover:text-white hover:scale-110 dark:bg-gray-700 dark:text-gray-300"
+                  className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 text-gray-600 transition-all transform bg-gray-100 rounded-full hover:bg-primary-600 hover:text-white hover:scale-110 dark:bg-gray-700 dark:text-gray-300"
                   aria-label="GitHub"
                 >
-                  <Github className="w-5 h-5" />
+                  <Github className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://in.linkedin.com/in/ganaparthi-manish-chowdary-400765264" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-10 h-10 text-gray-600 transition-all transform bg-gray-100 rounded-full hover:bg-primary-600 hover:text-white hover:scale-110 dark:bg-gray-700 dark:text-gray-300"
+                  className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 text-gray-600 transition-all transform bg-gray-100 rounded-full hover:bg-primary-600 hover:text-white hover:scale-110 dark:bg-gray-700 dark:text-gray-300"
                   aria-label="LinkedIn"
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
                 <a 
-                  href="https://twitter.com" 
+                  href="https://twitter.com/ganaparthimanish" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex items-center justify-center w-10 h-10 text-gray-600 transition-all transform bg-gray-100 rounded-full hover:bg-primary-600 hover:text-white hover:scale-110 dark:bg-gray-700 dark:text-gray-300"
+                  className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 text-gray-600 transition-all transform bg-gray-100 rounded-full hover:bg-primary-600 hover:text-white hover:scale-110 dark:bg-gray-700 dark:text-gray-300"
                   aria-label="Twitter"
                 >
-                  <Twitter className="w-5 h-5" />
+                  <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
                 </a>
               </div>
             </div>
           </div>
           
-          <div className="p-6 bg-white rounded-lg shadow-lg transform hover:shadow-xl transition-all dark:bg-gray-800">
-            <h3 className="mb-4 text-2xl font-semibold">Send a Message</h3>
+          <div className="p-4 sm:p-6 bg-white rounded-lg shadow-lg transform hover:shadow-xl transition-all dark:bg-gray-800">
+            <h3 className="mb-4 text-xl sm:text-2xl font-semibold">Send a Message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -171,7 +171,7 @@ const Contact: React.FC = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
+                  className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
                 />
               </div>
               
@@ -186,7 +186,7 @@ const Contact: React.FC = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
+                  className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
                 />
               </div>
               
@@ -201,7 +201,7 @@ const Contact: React.FC = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-2 transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
+                  className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
                 />
               </div>
               
@@ -215,13 +215,13 @@ const Contact: React.FC = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  rows={5}
-                  className="w-full px-4 py-2 transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
+                  rows={4}
+                  className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base transition-colors border rounded-md border-gray-300 focus:border-primary-500 focus:ring focus:ring-primary-200 focus:ring-opacity-50 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-primary-500"
                 ></textarea>
               </div>
               
               {formStatus.status !== 'idle' && (
-                <div className={`p-3 rounded-md ${
+                <div className={`p-3 rounded-md text-sm ${
                   formStatus.status === 'success' 
                     ? 'bg-success-100 text-success-800 dark:bg-success-900 dark:text-success-300' 
                     : 'bg-error-100 text-error-800 dark:bg-error-900 dark:text-error-300'
@@ -232,9 +232,9 @@ const Contact: React.FC = () => {
               
               <button
                 type="submit"
-                className="flex items-center justify-center w-full px-6 py-3 text-white transition-all transform rounded-md btn btn-primary hover:scale-105"
+                className="flex items-center justify-center w-full px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base text-white transition-all transform rounded-md btn btn-primary hover:scale-105"
               >
-                <Send className="w-5 h-5 mr-2" />
+                <Send className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 Send Message
               </button>
             </form>
